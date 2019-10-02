@@ -3,7 +3,7 @@
 
     <head>
         <link rel="stylesheet" href="assets\css\style.css">
-        
+
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -13,22 +13,55 @@
     </head>
 
     <body>
-        <h1>Matthew Donovan</h1>
+        <div class="wrapper">
 
-        <!-- 3 links -->
-        <a>About</a>
-        <a>Portfolio</a>
-        <a>Contact</a>
+            <div class="header">
+                <div class="insideHead">
+                    <div class="name">
+                        <h1>Matthew Donovan</h1>
+                    </div>
 
-        <!-- Contain all of this-->
-        <h2>Contact</h2>
+                    <!-- 3 links -->
+                    <div class="navlinks">
+                        <ul class="nav">
+                            <li><a class="noLine navColor" href="index.html">About</a></li>
+                            <li><a class="noLine navColor" href="portfolio.html">Portfolio</a></li>
+                            <li><a class="noLine navColor" href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                </div> 
+            </div>
+        
 
-        <!-- Have an input box for each field -->
-        <h3>Name</h3>
-        <h3>Email</h3>
-        <h3>Message</h3>
+            <!-- Contain all of this-->
+            <div class="contentB">
+                <div class="contentTopper">
+                    <h2>Contact</h2>
+                </div>
 
-        <!-- submit button -->
-        <p>Submit</p>
+                <!-- Have an input box for each field -->
+                <h3>Name</h3>
+                <p> <input id="inputBoxA" type="text" value=" John Smith" /> </p>
+
+                <h3>Email</h3>
+                <p> <input id="inputBoxA" type="text" value=" example@gmail.com" /> </p>
+
+                <h3>Message</h3>
+                <p> <input id="inputBoxB" type="text" value =" Message here" /> </p>
+
+                <!-- submit button -->
+                <div class="submitButton">
+                    <a class="noLine mainBG bold" href="#">Submit</a>
+                </div>
+            </div>
+
+            <div class="push"></div>
+
+        </div>
+        <footer class="footer"></footer>
+
     </body>
+
 </html>
+
+<!-- Things to work on: Message box doesn't word wrap -->
