@@ -1,0 +1,137 @@
+/*  Don't forget to look into these concepts: `float`, `padding`, `margin`, `display`, `overflow`, `clear` and `text-align`. */
+
+/*  Be sure to [validate your html](https://validator.w3.org/#validate_by_input). */
+
+
+html, body{
+    height: 100%;
+    margin: 0;
+}
+
+body {
+        background: url("../images/ripples.png");
+}
+
+.wrapper {
+    min-height: 100%;
+    margin-bottom: -50px;
+}
+
+
+.header{
+    height: 100px;
+    background-color: #ffffff;
+    border-bottom: 2px solid #cccccc;
+}
+
+
+.name {
+    width: 350px;
+    height: 50px;
+    margin-left: 250px;
+    padding: 25px;
+    text-align: center;
+    background-color: #4aaaa5;
+    float: left;
+}
+
+.nav li {
+    display: inline-block;
+    padding: 10px;
+}
+
+.noLine{
+    text-decoration: none;
+}
+.navlinks {
+    height: 50px;
+    width: 610px;
+    text-align: right;
+    text-decoration: none;
+    padding-top: 25px;
+    float: right;
+
+}
+
+.content{
+    width: 960px;
+    height: 900px;
+    margin-left: 250px;
+    margin-top: 100px;
+    background-color: #ffffff;
+    border-style: solid;
+    border-color: #dddddd;
+}
+
+h2 {
+    margin: 20px;
+    height: 60px;
+    width: 920px;
+    border-bottom: 3px solid #dddddd;
+}
+
+.floatright { float: right;}
+
+.floatleft {
+    float: left;
+    padding: 100px;
+}
+
+.footer,
+.push   { 
+    height: 50px;
+}
+
+.footer{
+    padding: 70px;
+    border-top: 8px solid #4aaaa5;
+    background-color: #666666
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* used for headings and backgrounds */
+.teal, h2 {color: #4aaaa5}
+
+/* Main header background color & Main content background color*/
+.mainBG, h1 {color: #ffffff}
+
+/* Main header border color */
+.headBorder {color: #cccccc}
+
+/* Footer background color */
+.footBorder {color: #666666}
+
+/* Main content border color */
+.mainBorder {color: #dddddd}
+
+/* For heading fonts use */
+h1, h2, h3 {font-family: 'Georgia', Times, Times New Roman, serif;}
+
+/* For all other fonts use */
+p, a, li {font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;}
+
+/* used for paragraphs and all text besides the headings */
+p, a, li {color: #777777}
+
+/* The entire content and the main section content area is `960px` wide. */
+
+/* Make your pages more sophisticated by adding style to text links, to image links,
+ and to buttons for when a user hovers their cursor over them.
+  A CSS hover tutorial can be found [here](http://www.codeitpretty.com/2013/06/how-to-use-css-hover-effects.html). */
+
+/* You can use [Adobe Kuler](https://color.adobe.com/create/color-wheel/) 
+to find colors that match the theme (in this case, the primary color is Teal `#4aaaa5`). */
+
+/* Make a "sticky footer." You will notice the dark grey footer will always rest just below the content. 
+This is fine whenever your site has enough content to push it down past the height of most monitors. 
+But if there isn't much content in the body, the footer could rest in the middle of the page:
+   * Try to code the footer in a way that it will always remain at the bottom of the page, 
+   no matter how short the content is. A sticky footer 
+   tutorial can be found [here](https://css-tricks.com/couple-takes-sticky-footer/).
+   * Give the Footer the following CSS:
+   * border-top: 8px solid #4aaaa5; */
