@@ -1,9 +1,9 @@
-/*  Don't forget to look into these concepts: `float`, `padding`, `margin`, `display`, `overflow`, `clear` and `text-align`. */
+/*  Don't forget to look into these concepts: `display`, `overflow`, `clear` */
 
 /*  Be sure to [validate your html](https://validator.w3.org/#validate_by_input). */
 
 
-html, body{
+html, body {
     height: 100%;
     margin: 0;
 }
@@ -18,7 +18,7 @@ body {
 }
 
 
-.header{
+.header {
     height: 80px;
     background-color: #ffffff;
     border-bottom: 2px solid #cccccc;
@@ -43,11 +43,11 @@ body {
     padding: 10px;
 }
 
-.noLine{
+.noLine {
     text-decoration: none;
 }
 
-.navlinks {
+.navLinks {
     height: 75px;
     width: 610px;
     text-align: right;
@@ -57,9 +57,9 @@ body {
 
 }
 
-.content{
+.contentIndex {
     width: 960px;
-    height: 500px;
+    height: 510px;
     margin-left: 25%;
     margin-top: 50px;
     background-color: #ffffff;
@@ -67,9 +67,19 @@ body {
     border-color: #dddddd;
 }
 
-.contentB{
+.contentContact {
     width: 960px;
-    height: 600px;
+    height: 610px;
+    margin-left: 25%;
+    margin-top: 50px;
+    background-color: #ffffff;
+    border-style: solid;
+    border-color: #dddddd;
+}
+
+.contentPortfolio {
+    width: 960px;
+    height: 535px;
     margin-left: 25%;
     margin-top: 50px;
     background-color: #ffffff;
@@ -97,14 +107,18 @@ p, h3 {
     padding: 1% 2.5% 0px 2.5%;
 }
 
-.submitButton {
-    width: 100px;
-    height: 20px;
+.theRealSubmitButton {
     margin: 0px 0px 0px 2.5%;
-    padding: 15px 10px 10px 10px;
-    text-align: center;
     background-color: #4aaaa5;
-}
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+  }
 
 .galleryTag {
     width: 100%;
@@ -129,7 +143,7 @@ p, h3 {
 }
 
 div.gallery {
-    margin: 1% 7% 0px 7% ;
+    margin: 3% 7% 0px 7% ;
     float: left;
     width: 180px;
 }
@@ -139,24 +153,23 @@ div.gallery img {
     height: auto;
 }
 
-#inputBoxA{
+#inputBoxA {
     border: 3px solid #dddddd;
 }
 
-#inputBoxB{
+#inputBoxB {
     text-align: left;
-    word-wrap: break-word;
     height: 150px;
     width: 910px;
     border: 3px solid #dddddd;
+    resize: none;
 }
 
-.footer,
-.push   { 
+.footer, .push { 
     height: 50px;
 }
 
-.footer{
+.footer {
     padding: 25px;
     border-top: 8px solid #4aaaa5;
     background-color: #666666
