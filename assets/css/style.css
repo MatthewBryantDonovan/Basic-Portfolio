@@ -47,6 +47,10 @@ body {
     text-decoration: none;
 }
 
+.noLine:hover {
+    color: #4aaaa5;
+}
+
 .navLinks {
     height: 75px; /* 75+5 = 80 */
     width: 610px;
