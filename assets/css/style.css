@@ -2,7 +2,6 @@
 
 /*  Be sure to [validate your html](https://validator.w3.org/#validate_by_input). */
 
-
 html, body {
     height: 100%;
     margin: 0;
@@ -66,34 +65,25 @@ body {
 
 }
 
-.contentIndex {
+.content {
     width: 960px; /* match .insideHead */
-    height: 510px; /* is it better to have an ID for each page adjusting the height? */
     margin-left: 25%;
     margin-top: 160px;
+    margin-bottom: 0;
     background-color: #ffffff;
     border-style: solid;
-    border-color: #dddddd;
+    border-color: #dddddd; 
+}
+#contentIndex {
+    height: 600px; /* is it better to have an ID for each page adjusting the height? */
 }
 
-.contentContact {
-    width: 960px;
-    height: 610px;
-    margin-left: 25%;
-    margin-top: 160px;
-    background-color: #ffffff;
-    border-style: solid;
-    border-color: #dddddd;
+#contentContact {
+    height: 635px;
 }
 
-.contentPortfolio {
-    width: 960px;
+#contentPortfolio {
     height: 535px;
-    margin-left: 25%;
-    margin-top: 160px;
-    background-color: #ffffff;
-    border-style: solid;
-    border-color: #dddddd;
 }
 
 .contentTopper {
@@ -114,6 +104,7 @@ img {
 }
 
 p, h3 { 
+    line-height: 1.5;
     padding: 1% 2.5% 0px 2.5%; /* unsure why top looks like has a margin even with a 0px value */
 }
 
@@ -176,13 +167,27 @@ div.gallery img {
 
 .footer, .push { 
     height: 50px;
+/*     position: fixed;
+    bottom: 0; */
+    width: 100%;
+    padding: 0;
+    margin: 0;
+/*     border-top: 8px solid #4aaaa5;
+    background-color: #666666; */
 }
 
 .footer {
-    padding: 30px;
+    border-top: 8px solid #4aaaa5;
+    background-color: #666666;
+}
+
+/* .footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
     border-top: 8px solid #4aaaa5;
     background-color: #666666
-}
+} */
 
 .bold{
     font-weight: bold;
