@@ -58,10 +58,10 @@ a.navLinks:hover {
 
 section {
     clear: both;
-    height: 40%;
+    height: 10%; /* oddly enough it seems like theis height doesnt matter */
     width: 960px;
     margin: 5% auto 7% auto;
-    /* not sure with the 7% on bottom is good 
+    /* not sure if the 7% on bottom is good 
     but helps footer not colide when zooming in */
     background-color: #ffffff;
     border-style: solid;
@@ -117,8 +117,13 @@ textarea {
     border: 1px solid black;
 }
 
-table {
-    width: 120%;
+.galleryBackground{
+    overflow: hidden;
+    margin-left: 10%;
+}
+
+.gallerySpacer {
+    margin: 5% 10% 0% 0%;
 }
 
 a.galleryContainer {
@@ -129,6 +134,7 @@ a.galleryContainer {
 img.galleryLink {
     position: relative;
     width: 180px;
+    height: 180px;
 }
 
 h4{
@@ -136,10 +142,15 @@ h4{
     top: 65%;
     left: 50%;
     width: 100%;
+    height: 30%;
     text-align: center;
-    padding: 5%;
+    padding: 10%;
     background-color: #4aaaa5;
     transform: translate(-50%, -50%);
+}
+
+.twoLineCenter {
+    padding: 5%;
 }
 
 footer p {
