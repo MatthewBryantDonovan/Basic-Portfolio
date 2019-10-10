@@ -60,7 +60,7 @@ section {
     clear: both;
     height: 10%; /* oddly enough it seems like theis height doesnt matter */
     width: 960px;
-    margin: 5% auto 7% auto;
+    margin: 100px auto 100px auto;
     /* not sure if the 7% on bottom is good 
     but helps footer not colide when zooming in */
     background-color: #ffffff;
